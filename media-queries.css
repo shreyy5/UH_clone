@@ -1,0 +1,121 @@
+@media screen and (max-width:991px){
+
+    .nav-toggle{
+        display: block;
+        }
+
+    .nav-links{
+       position: absolute;
+       background-color: white;
+       top: 100%;
+       left: -100%;
+       width: 100%;
+       padding-block: 20px;
+       transition: 0.2s ease-in-out;
+    }
+
+    .nav-links.active{
+        left: 0;
+    }
+    .main-nav{
+        overflow: initial;
+    }
+    .nav-links ul{
+        flex-direction: column;
+       
+    }
+    .example-card{
+        width:calc(50% - 10px);
+    }
+    .example-card2{
+        width:calc(50% - 10px);
+    }
+    .example-card3{
+        width:calc(50% - 10px);
+    }
+
+    .example-card4{
+    width:calc(50% - 10px);
+    }
+
+    .examples{
+    gap:20px
+    }
+    .cta-section{
+        padding-block: 80px;
+    }
+
+
+}
+
+@media screen and (max-width:767px){
+    .primary-button{
+        width: 100%;
+    }
+
+    .header-section{
+        flex-direction: column-reverse;
+    }
+
+    .header-left{
+        width: 100%;
+        text-align: center;
+      }
+
+      .feature-card{
+        min-width: calc(50% - 15px);
+      }
+
+      .bfsec{
+            flex-direction: column;
+      }
+      .bfsec-2{
+        flex-direction: column-reverse;
+  }
+     .feature-text{
+    width:80vw;
+  }
+    .footer-section{
+        
+        flex-direction: column ;
+        gap: 20px;
+        align-items: center;
+    }
+    .columns{
+        align-items: center;
+    }
+    .sf-container{
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width:479px){
+    :root{
+        --padding-inline-section: 10px;
+    }
+    h1 {
+        font-size: 2rem;
+      }
+      
+      h2 {
+        font-size: 1.5rem;
+      }
+      
+      p {
+        font-size: 1rem;
+      }
+
+      .feature-card{
+        min-width: 100%;
+      }
+
+      .exc{
+        width: 100%;
+        min-height: 200px;
+      }
+      .example-text{
+        font-size: 1rem ;
+      }
+
+}

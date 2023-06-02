@@ -1,0 +1,10 @@
+*{
+    padding=50;
+    margin=50;
+}
+
+.navbar{
+    padding=50px;
+    margin=50px;
+    color: red;
+}
